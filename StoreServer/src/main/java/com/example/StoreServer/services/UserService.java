@@ -4,6 +4,7 @@ import com.example.StoreServer.entities.User;
 import com.example.StoreServer.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.Optional;
 

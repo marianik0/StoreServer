@@ -17,5 +17,4 @@ public class UserController {
         User user = userService.findUser(id);
         return ResponseEntity.ok(user);
     }
-
 }

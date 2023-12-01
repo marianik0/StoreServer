@@ -19,5 +19,4 @@ public class ProductService {
     public Product findProduct(Long id) {
         return productRepository.findById(id).orElseThrow();
     }
-
 }

@@ -1,6 +1,5 @@
 package com.example.StoreServer.controllers;
 
-
 import com.example.StoreServer.entities.Product;
 import com.example.StoreServer.services.ProductService;
 import lombok.RequiredArgsConstructor;
@@ -25,5 +24,4 @@ public class ProductController {
     public List<Product> findAll() {
         return productService.findAll();
     }
-
 }
