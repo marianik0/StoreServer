@@ -15,6 +15,7 @@ import java.time.ZonedDateTime;
 import java.util.Date;
 
 @Component
+@RequiredArgsConstructor
     public class JwtUtil {
         @Value("${jwt.secret.access}")
         private String accessSecret;
